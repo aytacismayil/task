@@ -1,3 +1,12 @@
+@media only screen and (max-width: 1359px) and (min-width: 1217px){
+
+#customers td {
+    font-size: 12px;
+}
+.table-title {
+    font-size: 14px;
+}
+}
 @media only screen and (max-width: 1216px) and (min-width: 800px){
     .none-menu{
         display: none;
