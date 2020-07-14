@@ -37,9 +37,9 @@
     .form-input input, .form-input select {
         font-style: normal;
         font-weight: normal;
-        font-size: 9px;
+        font-size: 7px;
         line-height: 15px;
-        height: 40px;  
+        height: 35px;  
     }
     .table-title {
         border-bottom: 2px solid #DDDDDD;
