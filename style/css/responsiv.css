@@ -1,0 +1,180 @@
+@media only screen and (max-width: 1216px) and (min-width: 800px){
+    .none-menu{
+        display: none;
+    }
+    .nav-width {
+        width: 60px;
+        position: absolute;
+    }
+    .main-section {
+        margin-left: 50px;
+    }
+    .form-input label {
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .form-input input ,.form-input select {
+        font-size: 11px;
+    }
+    #customers td {
+        font-size: 10px;  
+    }
+    .table-title {
+        font-size: 14px;
+    }  
+      
+}
+@media only screen and (max-width: 900px) and (min-width: 760px){
+    .form-input input, .form-input select {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 15px;
+        height: 40px;  
+    }
+    .table-title {
+        border-bottom: 2px solid #DDDDDD;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 14px;
+        color: #212121;
+    }
+    .form-input label {
+        font-size: 9px;
+        line-height: 10px;
+    }
+    .table-img {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+    }
+    #customers td {
+        font-size: 10px;
+    }
+    .true-false {
+        width: 29px;
+        height: 29px;
+    }
+    .nav-width {
+        width: 60px;
+        position: absolute;
+    }
+    .main-section {
+        margin-left: 50px;
+    }
+    .none-menu{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 759px) and (min-width: 600px){
+    .form-input {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+    .nav-width {
+        width: 60px;
+        position: absolute;
+    }
+    .main-section {
+        margin-left: 50px;
+    }
+    .none-menu{
+        display: none;
+    }
+    #customers {
+        display: none;
+    }
+    .input-group-merge {
+        width: 200px!important;
+    }
+    .my-pro{
+        padding: 0!important;
+    }
+    .form-input label {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 19px;
+        color: #757575;
+    }
+    .form-input input, .form-input select {
+        font-size: 9px;
+        line-height: 19px;
+        height: 35px;
+
+    }   
+    .pagination-div{
+        display: none;
+    } 
+}
+@media only screen and (max-width: 599px) and (min-width: 300px){
+    #customers {
+        display: none;
+    }
+    .none-menu{
+        display: none;
+    }
+    .nav-width {
+        width: 60px;
+        position: absolute;
+    }
+    .main-section {
+        margin-left: 50px;
+    }
+    .form-input {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    .input-group-merge {
+        width: 310px!important;
+    }
+    .my-pro{
+        padding: 0!important;
+    }
+    .umumu-neticeler {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        flex-direction: column;
+    }
+    .pagination-div{
+        display: none;
+    }
+    .mob-ic{
+        display: none;
+    }
+    .languge-and-user ul {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        transform: translate(10px, 10px);
+    }
+}
+@media only screen and (max-width: 414px) and (min-width: 300px){
+    .input-group-merge {
+        width: 249px!important;
+    }
+    .nav-width {
+        width: 46px;
+        position: absolute;
+    }
+    .main-section {
+        margin-left: 40px;
+    }
+    .form-input input, .form-input select {
+        font-size: 12px;
+        height: 40px;
+    }
+    .form-input label {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .form-section {
+        padding: 15px;
+    }
+}
